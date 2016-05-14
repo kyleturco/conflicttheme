@@ -838,26 +838,37 @@ Homepage styles
 
 .about-section {
   background: $teal;
-  padding: 4.5em 0;
+  padding: 3.5em 0;
 }
 
 .about-photo {
   border: 5px solid $white;
 }
 
-.bio-content {
+.bio-text{
   padding: 5em 0em;
 }
 
+.bio-list {
+  margin-top: 1.5em;
+}
+
+ul.bio-list {
+  list-style-type: circle;
+}
 
 // Contact section styles
-#contact-section {
+.contact-section {
   padding: 2em 0;
-  background: $white;
 }
 
 #contact-info {
   margin-top: 1em;
+}
+
+.contact-header {
+  background: $teal;
+  padding: 3.5em 0;
 }
 
 .contact-item {

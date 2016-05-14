@@ -10,24 +10,16 @@ Template Name: Bio Page
   <div class="about-section">
     <div class="container">
       <div id="inner-content">
-        <div class="col-md-3">
-          <img class="about-photo" src="<?php echo get_template_directory_uri(); ?>/library/images/kimberly-best-headshot.jpg">
-        </div>
-        <div class="col-md-9">
-          <h2 class="text-white">About Kimberly Best, RN, MA</h2>
-          <p class="text-white">
-            I understand how challenging difficult life situations can be and the importance of
-            handling them in a manner that will achieve the best possible outcome for all involved. A strong education
-            combined with personal experience in a wide range of conflict gives me both knowledge and perspective for
-            satisfying mediation, conflict management, and communication resolution.
-          </p>
-        </div>
+        <h1 class="text-white text-center">About Kimberly Best, RN, MA</h2>
       </div>
     </div>
   </div>
   <div class="bio-text">
     <div class="container">
-      <div class="bio-content">
+      <div class="col-md-3 pull-left">
+        <img class="about-photo" src="<?php echo get_template_directory_uri(); ?>/library/images/kimberly-best-headshot.jpg">
+      </div>
+      <div class="bio-content col-md-9 pull-right">
         <p>
           My passion for studying and learning communication and conflict management was born
           from a desire to be the best parent, best wife, and best friend and that I could.
@@ -48,7 +40,7 @@ Template Name: Bio Page
           experience in a wide range of conflict gives me both knowledge and perspective
           for satisfying mediation, conflict management, and communication resolution.
         </p>
-        <ul>
+        <ul class="bio-list">
           <li>MA Institute of Conflict Management, Lipscomb University</li>
           <li>Masters Certificate Clinical/Community Psychology, UNC-Charlotte</li>
           <li>BA Psychology, UNC-Charlotte</li>
