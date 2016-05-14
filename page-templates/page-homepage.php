@@ -46,7 +46,7 @@ Template Name: Home Page
       </div>
     </div>
   </div>
-  <div id="about-section">
+  <div class="about-section">
     <div class="container">
       <div id="inner-content">
         <div class="col-md-3">

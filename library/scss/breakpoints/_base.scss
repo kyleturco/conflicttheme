@@ -836,7 +836,7 @@ Homepage styles
   }
 }
 
-#about-section {
+.about-section {
   background: $teal;
   padding: 4.5em 0;
 }
@@ -844,6 +844,11 @@ Homepage styles
 .about-photo {
   border: 5px solid $white;
 }
+
+.bio-content {
+  padding: 5em 0em;
+}
+
 
 // Contact section styles
 #contact-section {

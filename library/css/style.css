@@ -2134,7 +2134,7 @@ Homepage styles
 }
 
 /* line 839, ../scss/breakpoints/_base.scss */
-#about-section {
+.about-section {
   background: #45b6bc;
   padding: 4.5em 0;
 }
@@ -2144,28 +2144,33 @@ Homepage styles
   border: 5px solid #fff;
 }
 
-/* line 849, ../scss/breakpoints/_base.scss */
+/* line 848, ../scss/breakpoints/_base.scss */
+.bio-content {
+  padding: 5em 0em;
+}
+
+/* line 854, ../scss/breakpoints/_base.scss */
 #contact-section {
   padding: 2em 0;
   background: #fff;
 }
 
-/* line 854, ../scss/breakpoints/_base.scss */
+/* line 859, ../scss/breakpoints/_base.scss */
 #contact-info {
   margin-top: 1em;
 }
 
-/* line 858, ../scss/breakpoints/_base.scss */
+/* line 863, ../scss/breakpoints/_base.scss */
 .contact-item {
   margin-bottom: 1.25em;
   display: block;
 }
-/* line 861, ../scss/breakpoints/_base.scss */
+/* line 866, ../scss/breakpoints/_base.scss */
 .contact-item h3 {
   margin-top: 0.55em;
 }
 
-/* line 866, ../scss/breakpoints/_base.scss */
+/* line 871, ../scss/breakpoints/_base.scss */
 .contact-circle {
   background: #2e5987;
   height: 2.5em;
@@ -2175,13 +2180,13 @@ Homepage styles
   float: left;
   margin-right: 0.5em;
 }
-/* line 874, ../scss/breakpoints/_base.scss */
+/* line 879, ../scss/breakpoints/_base.scss */
 .contact-circle .fa {
   font-size: 1.3em;
   padding: 0.5em;
 }
 
-/* line 880, ../scss/breakpoints/_base.scss */
+/* line 885, ../scss/breakpoints/_base.scss */
 .contact-listing {
   display: block;
   float: left;
