@@ -12,3 +12,152 @@ be seen on the Desktop.
 .wrap {
   width: 1040px;
 }
+
+.footer {
+  .right-side-footer-content {
+    margin-top: 0;
+    float: right;
+    display: block;
+    text-align: right;
+  }
+}
+
+#home-hero-section {
+  padding: 3.7em 0em;
+  #inner-content {
+    width: 50%;
+  }
+  h1 {
+    font-size: 2.7em;
+  }
+}
+
+//Homepage icons
+#home-welcome-section {
+  padding: 2em 0;
+  background: $light-gray;
+}
+
+#home-icon-2 {
+  border-top: none;
+  border-bottom: none;
+}
+
+.homepage-description {
+  padding: 0em 1em;
+}
+
+#overview-content-left {
+  .about-text {
+    width: 80%;
+  }
+  h4 {
+    line-height: 1.4em;
+  }
+}
+
+#overview-photos-right {
+  .photo-left {
+    width: 66%;
+    margin-top: 0;
+  }
+  .photos-right {
+    width: 30%;
+    margin-left: 1em;
+    display: block;
+    float: left;
+    .photo-1 {
+      background: url(../images/kids-at-work.JPG) no-repeat;
+      background-size: cover;
+      height: 160px;
+      margin-bottom: 1em;
+    }
+    .photo-2 {
+      background: url(../images/kids-at-table.jpg) no-repeat;
+      background-size: cover;
+      height: 160px;
+    }
+  }
+}
+
+#home-classes-section {
+  .class-box {
+    .class-box-text {
+      padding: 1.5em 0.5em 1.5em 2em;
+    }
+  }
+}
+
+// Our story styles
+
+#our-story-photos-right {
+  .photos-top {
+    img {
+      margin-top: 0em;
+    }
+  }
+  .photos-bottom {
+    display: block;
+    margin-top: 1em;
+    img {
+      width: 48%;
+    }
+  }
+}
+
+.class-info {
+  width: 60%;
+}
+
+.class-download {
+  display: block;
+  width: 35%;
+  float: right;
+}
+
+.class-download-mobile {
+  display: none;
+}
+
+// Programs styles
+#programs-page-header {
+  #program-subheader {
+    display: block;
+  }
+}
+
+#programs-subnav {
+  display: block;
+}
+
+.class-info-notes {
+  width: 60%;
+}
+
+// Enrollment Styles
+#enrollment-page-header {
+  #enrollment-subheader {
+    display: block;
+  }
+}
+
+#enrollment-subnav {
+  display: block;
+}
+
+// Contact
+.contact-page-content {
+  min-height: 750px;
+}
+
+#contact-top {
+  .container {
+    padding-top: 4em;
+  }
+}
+
+#contact-photo-right {
+  margin-top: 0em;
+}
+
+

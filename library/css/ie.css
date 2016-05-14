@@ -17,28 +17,33 @@ read those. Below, we need to import only the stuff IE can't
 understand (what's inside the media queries). We also need to
 import the mixins file so SASS can understand the variables.
 ******************************************************************/
-/******************************************************************
-Site Name:
-Author:
-
-Stylesheet: Variables
-
-Here is where we declare all our variables like colors, fonts,
-base values, and defaults. We want to make sure this file ONLY
-contains variables that way our files don't get all messy.
-No one likes a mess.
-
-******************************************************************/
-/*********************
-COLORS
-Need help w/ choosing your colors? Try this site out:
-http://0to255.com/
-*********************/
+/* template colors */
+/* basic primary colors */
 /*
-Here's a great tutorial on how to
-use color variables properly:
-http://sachagreif.com/sass-color-variables/
+ i imported this one in the functions file so bones would look sweet.
+ don't forget to remove it for your site.
 */
+/*
+
+*/
+/* line 14, ../scss/partials/_typography.scss */
+p {
+  -ms-word-wrap: break-word;
+  word-break: break-word;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  -webkit-hyphenate-before: 2;
+  -webkit-hyphenate-after: 3;
+  hyphenate-lines: 3;
+  -webkit-font-feature-settings: "liga", "dlig";
+  -moz-font-feature-settings: "liga=1, dlig=1";
+  -ms-font-feature-settings: "liga", "dlig";
+  -o-font-feature-settings: "liga", "dlig";
+  font-feature-settings: "liga", "dlig";
+}
+
 /******************************************************************
 Site Name:
 Author:
@@ -121,42 +126,58 @@ them in here, they won't work.
 NAVIGATION STYLES
 *********************/
 /* .menu is clearfixed inside mixins.scss */
+/* line 33, ../scss/breakpoints/_481up.scss */
 .menu {
-  /* end .menu ul */ }
-  .menu ul {
-    /* end .menu ul li */
-    /* highlight current page */
-    /* end current highlighters */ }
-    .menu ul li {
-      /*
-      plan your menus and drop-downs wisely.
-      */ }
-      .menu ul li a {
-        /*
-        you can use hover styles here even though this size
-        has the possibility of being a mobile device.
-        */ }
+  /* end .menu ul */
+}
+/* line 34, ../scss/breakpoints/_481up.scss */
+.menu ul {
+  /* end .menu ul li */
+  /* highlight current page */
+  /* end current highlighters */
+}
+/* line 35, ../scss/breakpoints/_481up.scss */
+.menu ul li {
+  /*
+  plan your menus and drop-downs wisely.
+  */
+}
+/* line 36, ../scss/breakpoints/_481up.scss */
+.menu ul li a {
+  /*
+  you can use hover styles here even though this size
+  has the possibility of being a mobile device.
+  */
+}
 
 /* end .menu */
 /*********************
 POSTS & CONTENT STYLES
 *********************/
 /* entry content */
+/* line 81, ../scss/breakpoints/_481up.scss */
 .entry-content {
-  /* at this larger size, we can start to align images */ }
-  .entry-content .alignleft, .entry-content img.alignleft {
-    margin-right: 1.5em;
-    display: inline;
-    float: left; }
-  .entry-content .alignright, .entry-content img.alignright {
-    margin-left: 1.5em;
-    display: inline;
-    float: right; }
-  .entry-content .aligncenter, .entry-content img.aligncenter {
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
-    clear: both; }
+  /* at this larger size, we can start to align images */
+}
+/* line 85, ../scss/breakpoints/_481up.scss */
+.entry-content .alignleft, .entry-content img.alignleft {
+  margin-right: 1.5em;
+  display: inline;
+  float: left;
+}
+/* line 90, ../scss/breakpoints/_481up.scss */
+.entry-content .alignright, .entry-content img.alignright {
+  margin-left: 1.5em;
+  display: inline;
+  float: right;
+}
+/* line 95, ../scss/breakpoints/_481up.scss */
+.entry-content .aligncenter, .entry-content img.aligncenter {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  clear: both;
+}
 
 /* end .entry-content */
 /*********************
@@ -167,6 +188,11 @@ check your menus here. do they look good?
 do they need tweaking?
 */
 /* end .footer-links */
+/* line 123, ../scss/breakpoints/_481up.scss */
+#home-classes-section .class-box .class-box-text h2 {
+  font-size: 1.75em;
+}
+
 /******************************************************************
 Site Name:
 Author:
@@ -186,90 +212,145 @@ GENERAL STYLES
 /*********************
 LAYOUT & GRID STYLES
 *********************/
+/* line 26, ../scss/breakpoints/_768up.scss */
 .wrap {
-  width: 760px; }
+  width: 760px;
+}
 
 /*********************
 HEADER STYLES
 *********************/
+/* line 36, ../scss/breakpoints/_768up.scss */
+#logo {
+  font-size: 1.125em;
+  margin: 0em;
+}
+
+/* line 41, ../scss/breakpoints/_768up.scss */
+#logo {
+  width: 265px;
+}
+
 /*********************
 NAVIGATION STYLES
 *********************/
+/* line 49, ../scss/breakpoints/_768up.scss */
+#header-right {
+  float: right;
+}
+
+/* line 53, ../scss/breakpoints/_768up.scss */
 .nav {
   border: 0;
   /* end .menu ul li */
   /* highlight current page */
-  /* end current highlighters */ }
-  .nav ul {
-    margin-top: 0; }
-  .nav li {
-    float: left;
-    position: relative;
-    /*
-    plan your menus and drop-downs wisely.
-    */
-    /* showing sub-menus */ }
-    .nav li a {
-      border-bottom: 0;
-      /*
-      you can use hover styles here even though this size
-      has the possibility of being a mobile device.
-      */ }
-      .nav li a:hover, .nav li a:focus {
-        color: white;
-        text-decoration: underline; }
-    .nav li ul.sub-menu,
-    .nav li ul.children {
-      margin-top: 0;
-      border: 1px solid #ccc;
-      border-top: 0;
-      position: absolute;
-      overflow: hidden;
-      visibility: hidden;
-      z-index: 8999;
-      /* highlight sub-menu current page */ }
-      .nav li ul.sub-menu li,
-      .nav li ul.children li {
-        /*
-        if you need to go deeper, go nuts
-        just remember deeper menus suck
-        for usability. k, bai.
-        */ }
-        .nav li ul.sub-menu li a,
-        .nav li ul.children li a {
-          padding-left: 10px;
-          border-right: 0;
-          display: block;
-          width: 180px;
-          border-bottom: 1px solid #ccc; }
-        .nav li ul.sub-menu li:last-child a,
-        .nav li ul.children li:last-child a {
-          border-bottom: 0; }
-    .nav li:hover ul {
-      top: auto;
-      overflow: visible;
-      visibility: visible; }
+  /* end current highlighters */
+}
+/* line 55, ../scss/breakpoints/_768up.scss */
+.nav ul {
+  background: #323944;
+  margin-top: 0;
+}
+/* line 59, ../scss/breakpoints/_768up.scss */
+.nav li {
+  float: left;
+  position: relative;
+  /*
+  plan your menus and drop-downs wisely.
+  */
+  /* showing sub-menus */
+}
+/* line 63, ../scss/breakpoints/_768up.scss */
+.nav li a {
+  border-bottom: 0;
+  /*
+  you can use hover styles here even though this size
+  has the possibility of being a mobile device.
+  */
+}
+/* line 70, ../scss/breakpoints/_768up.scss */
+.nav li a:hover, .nav li a:focus {
+  color: #fff;
+  background: #4285f4;
+  transition: 0.2s;
+  border-radius: 4px;
+}
+/* line 84, ../scss/breakpoints/_768up.scss */
+.nav li ul.sub-menu,
+.nav li ul.children {
+  margin-top: 0;
+  border: 1px solid #ccc;
+  border-top: 0;
+  position: absolute;
+  visibility: hidden;
+  z-index: 8999;
+  /* highlight sub-menu current page */
+}
+/* line 93, ../scss/breakpoints/_768up.scss */
+.nav li ul.sub-menu li,
+.nav li ul.children li {
+  /*
+  if you need to go deeper, go nuts
+  just remember deeper menus suck
+  for usability. k, bai.
+  */
+}
+/* line 95, ../scss/breakpoints/_768up.scss */
+.nav li ul.sub-menu li a,
+.nav li ul.children li a {
+  padding-left: 10px;
+  border-right: 0;
+  display: block;
+  width: 180px;
+  border-bottom: 1px solid #ccc;
+}
+/* line 112, ../scss/breakpoints/_768up.scss */
+.nav li ul.sub-menu li:last-child a,
+.nav li ul.children li:last-child a {
+  border-bottom: 0;
+}
+/* line 122, ../scss/breakpoints/_768up.scss */
+.nav li ul.sub-menu li ul,
+.nav li ul.children li ul {
+  top: 0;
+  left: 100%;
+}
+/* line 137, ../scss/breakpoints/_768up.scss */
+.nav li:hover > ul {
+  top: auto;
+  visibility: visible;
+}
 
 /* end .nav */
 /*********************
 SIDEBARS & ASIDES
 *********************/
+/* line 157, ../scss/breakpoints/_768up.scss */
 .sidebar {
-  margin-top: 2.2em; }
+  margin-top: 2.2em;
+}
 
+/* line 161, ../scss/breakpoints/_768up.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
-  margin-bottom: 0.75em; }
+  margin-bottom: 0.75em;
+}
 
+/* line 166, ../scss/breakpoints/_768up.scss */
 .widget {
   padding: 0 10px;
-  margin: 2.2em 0; }
-  .widget ul li {
-    margin-bottom: 0.75em;
-    /* deep nesting */ }
-    .widget ul li ul {
-      margin-top: 0.75em;
-      padding-left: 1em; }
+  margin: 2.2em 0;
+}
+/* line 171, ../scss/breakpoints/_768up.scss */
+.widget ul li {
+  margin-bottom: 0.75em;
+  /* deep nesting */
+}
+/* line 179, ../scss/breakpoints/_768up.scss */
+.widget ul li ul {
+  margin-top: 0.75em;
+  padding-left: 1em;
+}
 
 /* links widget */
 /* meta widget */
@@ -290,14 +371,34 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
+/* line 287, ../scss/breakpoints/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.
   it's very rare to have multi-depth menus in
   the footer.
-  */ }
+  */
+}
 
 /* end .footer-links */
+/*********************
+CUSTOM STYLES
+*********************/
+/* line 306, ../scss/breakpoints/_768up.scss */
+#home-classes-section .class-box {
+  width: 48%;
+  margin-bottom: 2em;
+}
+/* line 309, ../scss/breakpoints/_768up.scss */
+#home-classes-section .class-box .class-box-text {
+  padding: 1.5em 0.5em 1.5em 1em;
+}
+
+/* line 316, ../scss/breakpoints/_768up.scss */
+.homepage-description {
+  padding: 0em 5em;
+}
+
 /******************************************************************
 Site Name:
 Author:
@@ -308,8 +409,159 @@ This is the desktop size. It's larger than an iPad so it will only
 be seen on the Desktop.
 
 ******************************************************************/
+/* line 12, ../scss/breakpoints/_1030up.scss */
 .wrap {
-  width: 1040px; }
+  width: 1040px;
+}
+
+/* line 17, ../scss/breakpoints/_1030up.scss */
+.footer .right-side-footer-content {
+  margin-top: 0;
+  float: right;
+  display: block;
+  text-align: right;
+}
+
+/* line 25, ../scss/breakpoints/_1030up.scss */
+#home-hero-section {
+  padding: 3.7em 0em;
+}
+/* line 27, ../scss/breakpoints/_1030up.scss */
+#home-hero-section #inner-content {
+  width: 50%;
+}
+/* line 30, ../scss/breakpoints/_1030up.scss */
+#home-hero-section h1 {
+  font-size: 2.7em;
+}
+
+/* line 36, ../scss/breakpoints/_1030up.scss */
+#home-welcome-section {
+  padding: 2em 0;
+  background: #f3f3f3;
+}
+
+/* line 41, ../scss/breakpoints/_1030up.scss */
+#home-icon-2 {
+  border-top: none;
+  border-bottom: none;
+}
+
+/* line 46, ../scss/breakpoints/_1030up.scss */
+.homepage-description {
+  padding: 0em 1em;
+}
+
+/* line 51, ../scss/breakpoints/_1030up.scss */
+#overview-content-left .about-text {
+  width: 80%;
+}
+/* line 54, ../scss/breakpoints/_1030up.scss */
+#overview-content-left h4 {
+  line-height: 1.4em;
+}
+
+/* line 60, ../scss/breakpoints/_1030up.scss */
+#overview-photos-right .photo-left {
+  width: 66%;
+  margin-top: 0;
+}
+/* line 64, ../scss/breakpoints/_1030up.scss */
+#overview-photos-right .photos-right {
+  width: 30%;
+  margin-left: 1em;
+  display: block;
+  float: left;
+}
+/* line 69, ../scss/breakpoints/_1030up.scss */
+#overview-photos-right .photos-right .photo-1 {
+  background: url(../images/kids-at-work.JPG) no-repeat;
+  background-size: cover;
+  height: 160px;
+  margin-bottom: 1em;
+}
+/* line 75, ../scss/breakpoints/_1030up.scss */
+#overview-photos-right .photos-right .photo-2 {
+  background: url(../images/kids-at-table.jpg) no-repeat;
+  background-size: cover;
+  height: 160px;
+}
+
+/* line 85, ../scss/breakpoints/_1030up.scss */
+#home-classes-section .class-box .class-box-text {
+  padding: 1.5em 0.5em 1.5em 2em;
+}
+
+/* line 95, ../scss/breakpoints/_1030up.scss */
+#our-story-photos-right .photos-top img {
+  margin-top: 0em;
+}
+/* line 99, ../scss/breakpoints/_1030up.scss */
+#our-story-photos-right .photos-bottom {
+  display: block;
+  margin-top: 1em;
+}
+/* line 102, ../scss/breakpoints/_1030up.scss */
+#our-story-photos-right .photos-bottom img {
+  width: 48%;
+}
+
+/* line 108, ../scss/breakpoints/_1030up.scss */
+.class-info {
+  width: 60%;
+}
+
+/* line 112, ../scss/breakpoints/_1030up.scss */
+.class-download {
+  display: block;
+  width: 35%;
+  float: right;
+}
+
+/* line 118, ../scss/breakpoints/_1030up.scss */
+.class-download-mobile {
+  display: none;
+}
+
+/* line 124, ../scss/breakpoints/_1030up.scss */
+#programs-page-header #program-subheader {
+  display: block;
+}
+
+/* line 129, ../scss/breakpoints/_1030up.scss */
+#programs-subnav {
+  display: block;
+}
+
+/* line 133, ../scss/breakpoints/_1030up.scss */
+.class-info-notes {
+  width: 60%;
+}
+
+/* line 139, ../scss/breakpoints/_1030up.scss */
+#enrollment-page-header #enrollment-subheader {
+  display: block;
+}
+
+/* line 144, ../scss/breakpoints/_1030up.scss */
+#enrollment-subnav {
+  display: block;
+}
+
+/* line 149, ../scss/breakpoints/_1030up.scss */
+.contact-page-content {
+  min-height: 750px;
+}
+
+/* line 154, ../scss/breakpoints/_1030up.scss */
+#contact-top .container {
+  padding-top: 4em;
+}
+
+/* line 159, ../scss/breakpoints/_1030up.scss */
+#contact-photo-right {
+  margin-top: 0em;
+}
 
 /*
 you can call the larger styles if you want, but there's really no need

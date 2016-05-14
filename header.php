@@ -7,7 +7,6 @@
 
 	<head>
 		<meta charset="utf-8">
-
 		<?php // force Internet Explorer to use the latest rendering engine available ?>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -19,7 +18,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 
 		<?php // icons & favicons (for more: http://www.jonathantneal.com/blog/understand-the-favicon/) ?>
-		<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/library/images/apple-touch-icon.png">
+		<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/library/images/bcs-favicon.png">
 		<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon.png">
 		<!--[if IE]>
 			<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
@@ -31,6 +30,12 @@
 
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
+    <!-- Style related CDNs -->
+    <link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
 		<?php // wordpress head functions ?>
 		<?php wp_head(); ?>
 		<?php // end of wordpress head ?>
@@ -41,37 +46,41 @@
 	</head>
 
 	<body <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage">
-
-		<div id="container">
-
-			<header class="header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
-
-				<div id="inner-header" class="wrap cf">
-
+		<header class="header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+      <div id="inner-header">
+        <div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+          <div id="header-left" class="pull-left">
+            <a href="<?php echo home_url(); ?>" rel="nofollow">
+              <img id="logo" class="h3" itemscope itemtype="http://schema.org/Organization" src="<?php echo get_template_directory_uri(); ?>/library/images/conflict-logo.svg" width="300px">
+            </a>
+          </div>
+        </div>
+				<div class="navbar-collapse collapse" id="main-navbar">
 					<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
-					<p id="logo" class="h1" itemscope itemtype="http://schema.org/Organization"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
-
-					<?php // if you'd like to use the site description you can un-comment it below ?>
-					<?php // bloginfo('description'); ?>
-
-
-					<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
-						<?php wp_nav_menu(array(
-    					         'container' => false,                           // remove nav container
-    					         'container_class' => 'menu cf',                 // class of container (should you choose to use it)
-    					         'menu' => __( 'The Main Menu', 'bonestheme' ),  // nav name
-    					         'menu_class' => 'nav top-nav cf',               // adding custom nav class
-    					         'theme_location' => 'main-nav',                 // where it's located in the theme
-    					         'before' => '',                                 // before the menu
-        			               'after' => '',                                  // after the menu
-        			               'link_before' => '',                            // before each link
-        			               'link_after' => '',                             // after each link
-        			               'depth' => 0,                                   // limit the depth of the nav
-    					         'fallback_cb' => ''                             // fallback function (if there is one)
-						)); ?>
-
-					</nav>
-
-				</div>
-
-			</header>
+	        <div id="header-right">
+						<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+							<?php wp_nav_menu(array(
+	    					         'container' => false,                           // remove nav container
+	    					         'container_class' => 'menu cf',                 // class of container (should you choose to use it)
+	    					         'menu' => __( 'The Main Menu', 'bonestheme' ),  // nav name
+	    					         'menu_class' => 'nav top-nav cf',               // adding custom nav class
+	    					         'theme_location' => 'main-nav',                 // where it's located in the theme
+	    					         'before' => '',                                 // before the menu
+	        			               'after' => '',                                  // after the menu
+	        			               'link_before' => '',                            // before each link
+	        			               'link_after' => '',                             // after each link
+	        			               'depth' => 0,                                   // limit the depth of the nav
+	    					         'fallback_cb' => ''                             // fallback function (if there is one)
+							)); ?>
+						</nav>
+	        </div>
+        </div>
+        <div class="clearfix"></div>
+			</div>
+		</header>

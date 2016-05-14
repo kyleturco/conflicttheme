@@ -33,11 +33,22 @@ HEADER STYLES
 
 .header {}
 
-	#logo {}
+	#logo {
+    font-size: 1.125em;
+    margin: 0em;
+  }
+
+#logo {
+	width: 265px;
+}
 
 /*********************
 NAVIGATION STYLES
 *********************/
+
+#header-right {
+  float: right;
+}
 
 .nav {
 	border: 0;
@@ -58,7 +69,9 @@ NAVIGATION STYLES
 			*/
 			&:hover, &:focus {
 				color: $white;
-				text-decoration: underline;
+        background: $blue;
+        transition: 0.2s;
+        border-radius: 4px;
 			}
 		}
 
@@ -285,3 +298,21 @@ mobile. Make sure to double check these!
 	}
 } /* end .footer-links */
 
+/*********************
+CUSTOM STYLES
+*********************/
+
+#home-classes-section {
+  .class-box {
+    width: 48%;
+    margin-bottom: 2em;
+    .class-box-text {
+      padding: 1.5em 0.5em 1.5em 1em;
+    }
+  }
+}
+
+//Homepage icons
+.homepage-description {
+  padding: 0em 5em;
+}
