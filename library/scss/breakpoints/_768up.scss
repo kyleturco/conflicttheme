@@ -43,6 +43,17 @@ HEADER STYLES
 }
 
 /*********************
+TEXT STYLES
+*********************/
+
+h1, .h1 {
+    font-size: 2.7em;
+    line-height: 1.333em;
+    font-family: $header;
+    color: $dark-blue;
+}
+
+/*********************
 NAVIGATION STYLES
 *********************/
 
@@ -301,18 +312,3 @@ mobile. Make sure to double check these!
 /*********************
 CUSTOM STYLES
 *********************/
-
-#home-classes-section {
-  .class-box {
-    width: 48%;
-    margin-bottom: 2em;
-    .class-box-text {
-      padding: 1.5em 0.5em 1.5em 1em;
-    }
-  }
-}
-
-//Homepage icons
-.homepage-description {
-  padding: 0em 5em;
-}

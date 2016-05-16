@@ -75,7 +75,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 }
 
 h1, .h1 {
-    font-size: 2.7em;
+    font-size: 1.75em;
     line-height: 1.333em;
     font-family: $header;
     color: $dark-blue;
@@ -749,14 +749,17 @@ CUSTOM STYLES
 // buttons //
 .btn-primary {
   color: $white;
-  background-color: $green;
+  background-color: $teal;
+  text-align: center;
   font-size: 1.2em;
   padding: 0.4em 0.8em;
   font-family: $header;
   border: none;
-  border-radius: 7px;
+  border-radius: 0px;
+  width: 8em;
+  margin: 0 auto;
   &:hover {
-    background-color: darken($green, 10%);
+    background-color: darken($teal, 10%);
   }
 }
 
@@ -780,7 +783,7 @@ Homepage styles
     line-height: 1.5em;
     margin-top: 0.5em;
     font-size: 1.35em;
-    color: rgba(256, 256, 256, 0.7);
+    color: $white;
   }
   h1 {
     font-size: 2.25em;
@@ -791,10 +794,16 @@ Homepage styles
   p {
     font-size: 1.3em;
     margin-bottom: 0.7em;
-    color: rgba(256, 256, 256, 0.7);
+    color: $white;
   }
 }
-#home-hero-btn {
+
+.about-section-homepage {
+  background: $teal;
+  padding: 4em 0;
+}
+
+.home-hero-btn {
   margin: 0 auto;
   display: block;
   width: 12em;
@@ -819,8 +828,14 @@ Homepage styles
     height: 1px;
     position: relative;
     vertical-align: middle;
-    margin-left: 1em;
-    width: 65%;
+  }
+  &:before {
+    background-color: rgba(256, 256, 256, 0.7);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
   }
 }
 
@@ -838,7 +853,7 @@ Homepage styles
 
 .about-section {
   background: $teal;
-  padding: 3.5em 0;
+  padding: 2em 0;
 }
 
 .about-photo {
