@@ -748,16 +748,20 @@ CUSTOM STYLES
 
 // buttons //
 .btn-primary {
-  color: $white;
   background-color: $teal;
   text-align: center;
-  font-size: 1.2em;
-  padding: 0.4em 0.8em;
+  font-size: 1em;
+  padding: 0.6em 1em;
   font-family: $header;
   border: none;
   border-radius: 0px;
-  width: 8em;
-  margin: 0 auto;
+  a {
+    color: $white;
+    &:hover {
+      text-decoration: none;
+      color: $white;
+    }
+  }
   &:hover {
     background-color: darken($teal, 10%);
   }
@@ -798,9 +802,8 @@ Homepage styles
   }
 }
 
-.about-section-homepage {
-  background: $teal;
-  padding: 4em 0;
+.hero-section-text {
+  margin-bottom: 2em;
 }
 
 .home-hero-btn {
@@ -808,15 +811,6 @@ Homepage styles
   display: block;
   width: 12em;
   font-size: 1.4em;
-  .fa {
-    -webkit-transition: 0.3s;
-  }
-  &:hover {
-    .fa {
-      margin-left: 5px;
-      -webkit-transition: 0.3s;
-    }
-  }
 }
 
 .bonus-line {
@@ -838,6 +832,13 @@ Homepage styles
     vertical-align: middle;
   }
 }
+
+.about-section-homepage {
+  background: $white;
+  padding: 4em 0;
+}
+
+// Services styles
 
 #services-section {
   padding: 2em 0;
