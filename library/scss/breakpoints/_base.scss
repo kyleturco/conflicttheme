@@ -75,7 +75,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 }
 
 h1, .h1 {
-    font-size: 1.75em;
+    font-size: 2em;
     line-height: 1.333em;
     font-family: $header;
     color: $dark-blue;
@@ -844,16 +844,23 @@ Homepage styles
 
 // Services styles
 
-#services-section {
-  padding: 2em 0;
-  background: $white;
+#services-header {
+  background: url(../images/mountains-image.jpg) no-repeat;
+  background-size: cover;
+  padding: 2em 0 3em;
+  background-position-y: 55%;
 }
-
 .service-item {
-  margin: 1.95em 0em;
+  margin: 2em 0em;
+  padding-bottom: 1.25em;
+  border-bottom: 1px solid #dedede;
   h4 {
     font-size: 1.35em;
   }
+}
+
+.services-content {
+  padding: 3em 0em;
 }
 
 .about-section {

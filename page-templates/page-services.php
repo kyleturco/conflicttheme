@@ -7,8 +7,13 @@ Template Name: Services Page
 <?php get_header(); ?>
 
 <div id="services-section">
-  <div class="container">
-    <h2>Dispute Resolution / Conflict Management Services Offered:</h2>
+  <div id="services-header">
+    .<div class="container">
+      <h1 class="text-white text-center">Services</div>
+    </div>
+  </div>
+  <div class="container services-content">
+    <h2>Dispute Resolution / Conflict Management</h2>
     <div class="no-left-pad">
       <div class="service-item">
         <h4 class="text-teal">Mediation</h4>

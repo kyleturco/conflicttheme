@@ -401,6 +401,16 @@ CUSTOM STYLES
 }
 
 /* line 320, ../scss/breakpoints/_768up.scss */
+.service-item {
+  width: 65%;
+}
+
+/* line 324, ../scss/breakpoints/_768up.scss */
+#services-header {
+  padding: 3.5em 0 5em;
+}
+
+/* line 328, ../scss/breakpoints/_768up.scss */
 .hero-description {
   width: 50%;
   margin: 0 auto;
