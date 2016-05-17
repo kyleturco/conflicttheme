@@ -248,21 +248,22 @@ NAVIGATION STYLES
 /* line 60, ../scss/breakpoints/_768up.scss */
 #header-right {
   float: right;
+  padding-top: 0.5em;
 }
 
-/* line 64, ../scss/breakpoints/_768up.scss */
+/* line 65, ../scss/breakpoints/_768up.scss */
 .nav {
   border: 0;
   /* end .menu ul li */
   /* highlight current page */
   /* end current highlighters */
 }
-/* line 66, ../scss/breakpoints/_768up.scss */
+/* line 67, ../scss/breakpoints/_768up.scss */
 .nav ul {
   background: #323944;
   margin-top: 0;
 }
-/* line 70, ../scss/breakpoints/_768up.scss */
+/* line 71, ../scss/breakpoints/_768up.scss */
 .nav li {
   float: left;
   position: relative;
@@ -271,7 +272,7 @@ NAVIGATION STYLES
   */
   /* showing sub-menus */
 }
-/* line 74, ../scss/breakpoints/_768up.scss */
+/* line 75, ../scss/breakpoints/_768up.scss */
 .nav li a {
   border-bottom: 0;
   /*
@@ -279,12 +280,11 @@ NAVIGATION STYLES
   has the possibility of being a mobile device.
   */
 }
-/* line 81, ../scss/breakpoints/_768up.scss */
+/* line 82, ../scss/breakpoints/_768up.scss */
 .nav li a:hover, .nav li a:focus {
-  color: #fff;
-  background: #4285f4;
-  transition: 0.2s;
-  border-radius: 4px;
+  color: #45b6bc;
+  background: none;
+  border-bottom: 3px solid #45b6bc;
 }
 /* line 95, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu,
@@ -396,6 +396,11 @@ mobile. Make sure to double check these!
 CUSTOM STYLES
 *********************/
 /* line 316, ../scss/breakpoints/_768up.scss */
+.about-photo {
+  display: block;
+}
+
+/* line 320, ../scss/breakpoints/_768up.scss */
 .hero-description {
   width: 50%;
   margin: 0 auto;

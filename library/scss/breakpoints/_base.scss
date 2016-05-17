@@ -119,11 +119,12 @@ HEADER STYLES
 }
 
 .navbar-toggle {
-  border: 1px solid $blue;
+  border: 1px solid $teal;
+  margin-top: 1.2em;
 }
 
 .icon-bar {
-  background: $blue;
+  background: $teal;
 }
 
 #logo {
@@ -157,7 +158,6 @@ NAVIGATION STYLES
         font-family: $header;
         color: $dark-blue;
         text-decoration: none;
-        padding: 0.75em;
         &:hover, &:focus {}
     }
 
@@ -863,6 +863,7 @@ Homepage styles
 
 .about-photo {
   border: 5px solid $white;
+  display: none;
 }
 
 .bio-text{
@@ -880,6 +881,26 @@ ul.bio-list {
 // Contact section styles
 .contact-section {
   padding: 2em 0;
+}
+
+#contact-section-content {
+  padding: 4em 0;
+}
+
+.icon-section {
+  margin-bottom: 1.5em;
+  color: $dark-blue;
+  .contact-item {
+    display: block;
+    float: left;
+    margin: 1em 0em 0em 1em;
+  }
+  .fa {
+    font-size: 1.4em;
+    display: block;
+    float: left;
+    margin: 0.75em 0em 0em 1em;
+  }
 }
 
 #contact-info {

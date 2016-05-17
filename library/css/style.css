@@ -1520,28 +1520,29 @@ HEADER STYLES
 
 /* line 121, ../scss/breakpoints/_base.scss */
 .navbar-toggle {
-  border: 1px solid #4285f4;
+  border: 1px solid #45b6bc;
+  margin-top: 1.2em;
 }
 
-/* line 125, ../scss/breakpoints/_base.scss */
+/* line 126, ../scss/breakpoints/_base.scss */
 .icon-bar {
-  background: #4285f4;
+  background: #45b6bc;
 }
 
-/* line 129, ../scss/breakpoints/_base.scss */
+/* line 130, ../scss/breakpoints/_base.scss */
 #logo {
   width: 200px;
   margin: 0.85em 0;
   font-size: 0.9em;
 }
-/* line 134, ../scss/breakpoints/_base.scss */
+/* line 135, ../scss/breakpoints/_base.scss */
 #logo a {
   color: #7dd667;
   font-family: "Roboto Slab", "Georgia", Cambria, Times New Roman, Times, serif;
   font-weight: 600;
   font-size: 1.2em;
 }
-/* line 139, ../scss/breakpoints/_base.scss */
+/* line 140, ../scss/breakpoints/_base.scss */
 #logo a:hover {
   color: #4fbd33;
 }
@@ -1549,7 +1550,7 @@ HEADER STYLES
 /*********************
 NAVIGATION STYLES
 *********************/
-/* line 150, ../scss/breakpoints/_base.scss */
+/* line 151, ../scss/breakpoints/_base.scss */
 .nav {
   border-bottom: 0;
   margin: 0;
@@ -1557,13 +1558,12 @@ NAVIGATION STYLES
   /* highlight current page */
   /* end current highlighters */
 }
-/* line 155, ../scss/breakpoints/_base.scss */
+/* line 156, ../scss/breakpoints/_base.scss */
 .nav li a {
   display: block;
   font-family: "Roboto Slab", "Georgia", Cambria, Times New Roman, Times, serif;
   color: #2e5987;
   text-decoration: none;
-  padding: 0.75em;
 }
 /* line 171, ../scss/breakpoints/_base.scss */
 .nav li ul.sub-menu li a,
@@ -2165,50 +2165,75 @@ Homepage styles
 /* line 864, ../scss/breakpoints/_base.scss */
 .about-photo {
   border: 5px solid #fff;
+  display: none;
 }
 
-/* line 868, ../scss/breakpoints/_base.scss */
+/* line 869, ../scss/breakpoints/_base.scss */
 .bio-text {
   padding: 5em 0em;
 }
 
-/* line 872, ../scss/breakpoints/_base.scss */
+/* line 873, ../scss/breakpoints/_base.scss */
 .bio-list {
   margin-top: 1.5em;
 }
 
-/* line 876, ../scss/breakpoints/_base.scss */
+/* line 877, ../scss/breakpoints/_base.scss */
 ul.bio-list {
   list-style-type: circle;
 }
 
-/* line 881, ../scss/breakpoints/_base.scss */
+/* line 882, ../scss/breakpoints/_base.scss */
 .contact-section {
   padding: 2em 0;
 }
 
-/* line 885, ../scss/breakpoints/_base.scss */
+/* line 886, ../scss/breakpoints/_base.scss */
+#contact-section-content {
+  padding: 4em 0;
+}
+
+/* line 890, ../scss/breakpoints/_base.scss */
+.icon-section {
+  margin-bottom: 1.5em;
+  color: #2e5987;
+}
+/* line 893, ../scss/breakpoints/_base.scss */
+.icon-section .contact-item {
+  display: block;
+  float: left;
+  margin: 1em 0em 0em 1em;
+}
+/* line 898, ../scss/breakpoints/_base.scss */
+.icon-section .fa {
+  font-size: 1.4em;
+  display: block;
+  float: left;
+  margin: 0.75em 0em 0em 1em;
+}
+
+/* line 906, ../scss/breakpoints/_base.scss */
 #contact-info {
   margin-top: 1em;
 }
 
-/* line 889, ../scss/breakpoints/_base.scss */
+/* line 910, ../scss/breakpoints/_base.scss */
 .contact-header {
   background: #45b6bc;
   padding: 2em 0;
 }
 
-/* line 894, ../scss/breakpoints/_base.scss */
+/* line 915, ../scss/breakpoints/_base.scss */
 .contact-item {
   margin-bottom: 1.25em;
   display: block;
 }
-/* line 897, ../scss/breakpoints/_base.scss */
+/* line 918, ../scss/breakpoints/_base.scss */
 .contact-item h3 {
   margin-top: 0.55em;
 }
 
-/* line 902, ../scss/breakpoints/_base.scss */
+/* line 923, ../scss/breakpoints/_base.scss */
 .contact-circle {
   background: #2e5987;
   height: 2.5em;
@@ -2218,13 +2243,13 @@ ul.bio-list {
   float: left;
   margin-right: 0.5em;
 }
-/* line 910, ../scss/breakpoints/_base.scss */
+/* line 931, ../scss/breakpoints/_base.scss */
 .contact-circle .fa {
   font-size: 1.3em;
   padding: 0.5em;
 }
 
-/* line 916, ../scss/breakpoints/_base.scss */
+/* line 937, ../scss/breakpoints/_base.scss */
 .contact-listing {
   display: block;
   float: left;
@@ -2392,21 +2417,22 @@ you can add resource intensive styles.
   /* line 60, ../scss/breakpoints/_768up.scss */
   #header-right {
     float: right;
+    padding-top: 0.5em;
   }
 
-  /* line 64, ../scss/breakpoints/_768up.scss */
+  /* line 65, ../scss/breakpoints/_768up.scss */
   .nav {
     border: 0;
     /* end .menu ul li */
     /* highlight current page */
     /* end current highlighters */
   }
-  /* line 66, ../scss/breakpoints/_768up.scss */
+  /* line 67, ../scss/breakpoints/_768up.scss */
   .nav ul {
     background: #323944;
     margin-top: 0;
   }
-  /* line 70, ../scss/breakpoints/_768up.scss */
+  /* line 71, ../scss/breakpoints/_768up.scss */
   .nav li {
     float: left;
     position: relative;
@@ -2415,7 +2441,7 @@ you can add resource intensive styles.
     */
     /* showing sub-menus */
   }
-  /* line 74, ../scss/breakpoints/_768up.scss */
+  /* line 75, ../scss/breakpoints/_768up.scss */
   .nav li a {
     border-bottom: 0;
     /*
@@ -2423,12 +2449,11 @@ you can add resource intensive styles.
     has the possibility of being a mobile device.
     */
   }
-  /* line 81, ../scss/breakpoints/_768up.scss */
+  /* line 82, ../scss/breakpoints/_768up.scss */
   .nav li a:hover, .nav li a:focus {
-    color: #fff;
-    background: #4285f4;
-    transition: 0.2s;
-    border-radius: 4px;
+    color: #45b6bc;
+    background: none;
+    border-bottom: 3px solid #45b6bc;
   }
   /* line 95, ../scss/breakpoints/_768up.scss */
   .nav li ul.sub-menu,
@@ -2540,6 +2565,11 @@ you can add resource intensive styles.
   CUSTOM STYLES
   *********************/
   /* line 316, ../scss/breakpoints/_768up.scss */
+  .about-photo {
+    display: block;
+  }
+
+  /* line 320, ../scss/breakpoints/_768up.scss */
   .hero-description {
     width: 50%;
     margin: 0 auto;

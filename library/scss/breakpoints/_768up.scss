@@ -59,6 +59,7 @@ NAVIGATION STYLES
 
 #header-right {
   float: right;
+	padding-top: 0.5em;
 }
 
 .nav {
@@ -79,10 +80,9 @@ NAVIGATION STYLES
 			has the possibility of being a mobile device.
 			*/
 			&:hover, &:focus {
-				color: $white;
-        background: $blue;
-        transition: 0.2s;
-        border-radius: 4px;
+				color: $teal;
+				background: none;
+				border-bottom: 3px solid $teal;
 			}
 		}
 
@@ -312,6 +312,10 @@ mobile. Make sure to double check these!
 /*********************
 CUSTOM STYLES
 *********************/
+
+.about-photo {
+	display: block;
+}
 
 .hero-description {
 	width: 50%;
