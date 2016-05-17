@@ -154,7 +154,8 @@ NAVIGATION STYLES
   li {
     a {
         display: block;
-        color: $text-color;
+        font-family: $header;
+        color: $dark-blue;
         text-decoration: none;
         padding: 0.75em;
         &:hover, &:focus {}
@@ -793,7 +794,6 @@ Homepage styles
     font-size: 2.25em;
     line-height: 1.1em;
     margin: 0.3em 0em;
-    font-weight: 700;
   }
   p {
     font-size: 1.3em;
@@ -836,6 +836,10 @@ Homepage styles
 .about-section-homepage {
   background: $white;
   padding: 4em 0;
+}
+
+.about-text-homepage {
+  margin-bottom: 1em;
 }
 
 // Services styles
@@ -884,7 +888,7 @@ ul.bio-list {
 
 .contact-header {
   background: $teal;
-  padding: 3.5em 0;
+  padding: 2em 0;
 }
 
 .contact-item {
