@@ -2053,13 +2053,14 @@ CUSTOM STYLES
 /* line 766, ../scss/breakpoints/_base.scss */
 .btn-primary:hover {
   background-color: #379397;
+  text-decoration: none;
 }
 
-/* line 771, ../scss/breakpoints/_base.scss */
+/* line 772, ../scss/breakpoints/_base.scss */
 a.btn-primary {
   color: #fff;
 }
-/* line 773, ../scss/breakpoints/_base.scss */
+/* line 774, ../scss/breakpoints/_base.scss */
 a.btn-primary:hover {
   color: #fff;
 }
@@ -2067,39 +2068,39 @@ a.btn-primary:hover {
 /**************
 Homepage styles
 ***************/
-/* line 782, ../scss/breakpoints/_base.scss */
+/* line 783, ../scss/breakpoints/_base.scss */
 #home-hero-section {
-  background: url(../images/header-image.jpg) no-repeat;
+  background: url(../images/hero-image-mtns.jpg) no-repeat;
   background-size: cover;
   padding: 2.5em 0;
   background-position-y: 30%;
 }
-/* line 787, ../scss/breakpoints/_base.scss */
+/* line 788, ../scss/breakpoints/_base.scss */
 #home-hero-section h3 {
   line-height: 1.5em;
   margin-top: 0.5em;
   font-size: 1.35em;
   color: #fff;
 }
-/* line 793, ../scss/breakpoints/_base.scss */
+/* line 794, ../scss/breakpoints/_base.scss */
 #home-hero-section h1 {
   font-size: 2.25em;
   line-height: 1.1em;
   margin: 0.3em 0em;
 }
-/* line 798, ../scss/breakpoints/_base.scss */
+/* line 799, ../scss/breakpoints/_base.scss */
 #home-hero-section p {
   font-size: 1.3em;
   margin-bottom: 0.7em;
   color: #fff;
 }
 
-/* line 805, ../scss/breakpoints/_base.scss */
+/* line 806, ../scss/breakpoints/_base.scss */
 .hero-section-text {
   margin-bottom: 2em;
 }
 
-/* line 809, ../scss/breakpoints/_base.scss */
+/* line 810, ../scss/breakpoints/_base.scss */
 .home-hero-btn {
   margin: 0 auto;
   display: block;
@@ -2107,11 +2108,11 @@ Homepage styles
   font-size: 1.4em;
 }
 
-/* line 816, ../scss/breakpoints/_base.scss */
+/* line 817, ../scss/breakpoints/_base.scss */
 .bonus-line {
   position: relative;
 }
-/* line 818, ../scss/breakpoints/_base.scss */
+/* line 819, ../scss/breakpoints/_base.scss */
 .bonus-line:after {
   background-color: rgba(255, 255, 255, 0.7);
   content: "";
@@ -2120,7 +2121,7 @@ Homepage styles
   position: relative;
   vertical-align: middle;
 }
-/* line 826, ../scss/breakpoints/_base.scss */
+/* line 827, ../scss/breakpoints/_base.scss */
 .bonus-line:before {
   background-color: rgba(255, 255, 255, 0.7);
   content: "";
@@ -2130,18 +2131,18 @@ Homepage styles
   vertical-align: middle;
 }
 
-/* line 836, ../scss/breakpoints/_base.scss */
+/* line 837, ../scss/breakpoints/_base.scss */
 .about-section-homepage {
   background: #fff;
   padding: 4em 0;
 }
 
-/* line 841, ../scss/breakpoints/_base.scss */
+/* line 842, ../scss/breakpoints/_base.scss */
 .about-text-homepage {
   margin-bottom: 1em;
 }
 
-/* line 847, ../scss/breakpoints/_base.scss */
+/* line 848, ../scss/breakpoints/_base.scss */
 #services-header {
   background: url(../images/mountains-image.jpg) no-repeat;
   background-size: cover;
@@ -2149,71 +2150,71 @@ Homepage styles
   background-position-y: 55%;
 }
 
-/* line 853, ../scss/breakpoints/_base.scss */
+/* line 854, ../scss/breakpoints/_base.scss */
 .service-item {
   margin: 2em 0em;
   padding-bottom: 1.25em;
   border-bottom: 1px solid #dedede;
 }
-/* line 857, ../scss/breakpoints/_base.scss */
+/* line 858, ../scss/breakpoints/_base.scss */
 .service-item h4 {
   font-size: 1.35em;
 }
 
-/* line 862, ../scss/breakpoints/_base.scss */
+/* line 863, ../scss/breakpoints/_base.scss */
 .services-content {
   padding: 3em 0em;
 }
 
-/* line 866, ../scss/breakpoints/_base.scss */
+/* line 867, ../scss/breakpoints/_base.scss */
 .about-section {
   background: #45b6bc;
   padding: 2em 0;
 }
 
-/* line 871, ../scss/breakpoints/_base.scss */
+/* line 872, ../scss/breakpoints/_base.scss */
 .about-photo {
   border: 5px solid #fff;
   display: none;
 }
 
-/* line 876, ../scss/breakpoints/_base.scss */
+/* line 877, ../scss/breakpoints/_base.scss */
 .bio-text {
   padding: 5em 0em;
 }
 
-/* line 880, ../scss/breakpoints/_base.scss */
+/* line 881, ../scss/breakpoints/_base.scss */
 .bio-list {
   margin-top: 1.5em;
 }
 
-/* line 884, ../scss/breakpoints/_base.scss */
+/* line 885, ../scss/breakpoints/_base.scss */
 ul.bio-list {
   list-style-type: circle;
 }
 
-/* line 889, ../scss/breakpoints/_base.scss */
+/* line 890, ../scss/breakpoints/_base.scss */
 .contact-section {
   padding: 2em 0;
 }
 
-/* line 893, ../scss/breakpoints/_base.scss */
+/* line 894, ../scss/breakpoints/_base.scss */
 #contact-section-content {
   padding: 4em 0;
 }
 
-/* line 897, ../scss/breakpoints/_base.scss */
+/* line 898, ../scss/breakpoints/_base.scss */
 .icon-section {
   margin-bottom: 1.5em;
   color: #2e5987;
 }
-/* line 900, ../scss/breakpoints/_base.scss */
+/* line 901, ../scss/breakpoints/_base.scss */
 .icon-section .contact-item {
   display: block;
   float: left;
   margin: 1em 0em 0em 1em;
 }
-/* line 905, ../scss/breakpoints/_base.scss */
+/* line 906, ../scss/breakpoints/_base.scss */
 .icon-section .fa {
   font-size: 1.4em;
   display: block;
@@ -2221,28 +2222,28 @@ ul.bio-list {
   margin: 0.75em 0em 0em 1em;
 }
 
-/* line 913, ../scss/breakpoints/_base.scss */
+/* line 914, ../scss/breakpoints/_base.scss */
 #contact-info {
   margin-top: 1em;
 }
 
-/* line 917, ../scss/breakpoints/_base.scss */
+/* line 918, ../scss/breakpoints/_base.scss */
 .contact-header {
   background: #45b6bc;
   padding: 2em 0;
 }
 
-/* line 922, ../scss/breakpoints/_base.scss */
+/* line 923, ../scss/breakpoints/_base.scss */
 .contact-item {
   margin-bottom: 1.25em;
   display: block;
 }
-/* line 925, ../scss/breakpoints/_base.scss */
+/* line 926, ../scss/breakpoints/_base.scss */
 .contact-item h3 {
   margin-top: 0.55em;
 }
 
-/* line 930, ../scss/breakpoints/_base.scss */
+/* line 931, ../scss/breakpoints/_base.scss */
 .contact-circle {
   background: #2e5987;
   height: 2.5em;
@@ -2252,13 +2253,13 @@ ul.bio-list {
   float: left;
   margin-right: 0.5em;
 }
-/* line 938, ../scss/breakpoints/_base.scss */
+/* line 939, ../scss/breakpoints/_base.scss */
 .contact-circle .fa {
   font-size: 1.3em;
   padding: 0.5em;
 }
 
-/* line 944, ../scss/breakpoints/_base.scss */
+/* line 945, ../scss/breakpoints/_base.scss */
 .contact-listing {
   display: block;
   float: left;

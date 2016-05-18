@@ -765,6 +765,7 @@ CUSTOM STYLES
   }
   &:hover {
     background-color: darken($teal, 10%);
+    text-decoration: none;
   }
 }
 
@@ -780,7 +781,7 @@ Homepage styles
 ***************/
 
 #home-hero-section {
-  background: url(../images/header-image.jpg) no-repeat;
+  background: url(../images/hero-image-mtns.jpg) no-repeat;
   background-size: cover;
   padding: 2.5em 0;
   background-position-y: 30%;

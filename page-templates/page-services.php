@@ -12,9 +12,9 @@ Template Name: Services Page
       <h1 class="text-white text-center">Services</div>
     </div>
   </div>
-  <div class="container services-content">
-    <h2>Dispute Resolution / Conflict Management</h2>
-    <div class="no-left-pad">
+  <div class="services-content">
+    <div class="container ">
+      <h2>Dispute Resolution / Conflict Management</h2>
       <div class="service-item">
         <h4 class="text-teal">Mediation</h4>
         <p><i class="fa fa-caret-right"></i> Civil, Family, Elder Care, Healthcare, Dispute Resolution</p>
