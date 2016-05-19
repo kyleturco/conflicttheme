@@ -1441,14 +1441,14 @@ LINK STYLES
 *********************/
 /* line 45, ../scss/breakpoints/_base.scss */
 a, a:visited {
-  color: #45b6bc;
+  color: #11BCC5;
   /* on hover */
   /* on click */
   /* mobile tap color */
 }
 /* line 49, ../scss/breakpoints/_base.scss */
 a:hover, a:focus, a:visited:hover, a:visited:focus {
-  color: #38969b;
+  color: #0d949b;
 }
 /* line 57, ../scss/breakpoints/_base.scss */
 a:link, a:visited:link {
@@ -1474,7 +1474,7 @@ h1, .h1 {
   font-size: 2em;
   line-height: 1.333em;
   font-family: "Roboto Slab", "Georgia", Cambria, Times New Roman, Times, serif;
-  color: #2e5987;
+  color: #11559E;
 }
 
 /* line 84, ../scss/breakpoints/_base.scss */
@@ -1484,7 +1484,7 @@ h2, .h2 {
   line-height: 1.4em;
   margin-bottom: 0.375em;
   font-family: "Roboto Slab", "Georgia", Cambria, Times New Roman, Times, serif;
-  color: #2e5987;
+  color: #11559E;
 }
 
 /* line 93, ../scss/breakpoints/_base.scss */
@@ -1520,13 +1520,13 @@ HEADER STYLES
 
 /* line 121, ../scss/breakpoints/_base.scss */
 .navbar-toggle {
-  border: 1px solid #45b6bc;
+  border: 1px solid #11BCC5;
   margin-top: 1.2em;
 }
 
 /* line 126, ../scss/breakpoints/_base.scss */
 .icon-bar {
-  background: #45b6bc;
+  background: #11BCC5;
 }
 
 /* line 130, ../scss/breakpoints/_base.scss */
@@ -1562,7 +1562,7 @@ NAVIGATION STYLES
 .nav li a {
   display: block;
   font-family: "Roboto Slab", "Georgia", Cambria, Times New Roman, Times, serif;
-  color: #2e5987;
+  color: #11559E;
   text-decoration: none;
 }
 /* line 171, ../scss/breakpoints/_base.scss */
@@ -2018,7 +2018,7 @@ CUSTOM STYLES
 
 /* line 738, ../scss/breakpoints/_base.scss */
 .text-teal {
-  color: #45b6bc;
+  color: #11BCC5;
 }
 
 /* line 742, ../scss/breakpoints/_base.scss */
@@ -2031,9 +2031,14 @@ CUSTOM STYLES
   padding-left: 0px;
 }
 
-/* line 751, ../scss/breakpoints/_base.scss */
+/* line 750, ../scss/breakpoints/_base.scss */
+.teal-section {
+  background: #11BCC5;
+}
+
+/* line 755, ../scss/breakpoints/_base.scss */
 .btn-primary {
-  background-color: #45b6bc;
+  background-color: #11BCC5;
   text-align: center;
   font-size: 1em;
   padding: 0.6em 1em;
@@ -2041,66 +2046,107 @@ CUSTOM STYLES
   border: none;
   border-radius: 0px;
 }
-/* line 759, ../scss/breakpoints/_base.scss */
+/* line 763, ../scss/breakpoints/_base.scss */
 .btn-primary a {
   color: #fff;
 }
-/* line 761, ../scss/breakpoints/_base.scss */
+/* line 765, ../scss/breakpoints/_base.scss */
 .btn-primary a:hover {
   text-decoration: none;
   color: #fff;
 }
-/* line 766, ../scss/breakpoints/_base.scss */
+/* line 770, ../scss/breakpoints/_base.scss */
 .btn-primary:hover {
-  background-color: #379397;
+  background-color: #0d8f96;
   text-decoration: none;
 }
 
-/* line 772, ../scss/breakpoints/_base.scss */
+/* line 776, ../scss/breakpoints/_base.scss */
 a.btn-primary {
   color: #fff;
+  text-decoration: none;
 }
-/* line 774, ../scss/breakpoints/_base.scss */
+/* line 779, ../scss/breakpoints/_base.scss */
 a.btn-primary:hover {
   color: #fff;
+  text-decoration: none;
+}
+
+/* line 785, ../scss/breakpoints/_base.scss */
+.btn-dark {
+  background-color: #11559E;
+  text-align: center;
+  font-size: 1em;
+  padding: 0.6em 1em;
+  font-family: "Roboto Slab", "Georgia", Cambria, Times New Roman, Times, serif;
+  border: none;
+  border-radius: 0px;
+  color: #fff;
+}
+/* line 794, ../scss/breakpoints/_base.scss */
+.btn-dark a {
+  color: #fff;
+}
+/* line 796, ../scss/breakpoints/_base.scss */
+.btn-dark a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+/* line 801, ../scss/breakpoints/_base.scss */
+.btn-dark:hover {
+  background-color: #0c3c70;
+  text-decoration: none;
+  border: none;
+  color: #fff;
+}
+
+/* line 809, ../scss/breakpoints/_base.scss */
+a.btn-dark {
+  color: #fff;
+  text-decoration: none;
+}
+/* line 812, ../scss/breakpoints/_base.scss */
+a.btn-dark:hover {
+  color: #fff;
+  text-decoration: none;
 }
 
 /**************
 Homepage styles
 ***************/
-/* line 783, ../scss/breakpoints/_base.scss */
+/* line 823, ../scss/breakpoints/_base.scss */
 #home-hero-section {
   background: url(../images/hero-image-mtns.jpg) no-repeat;
   background-size: cover;
   padding: 2.5em 0;
   background-position-y: 30%;
 }
-/* line 788, ../scss/breakpoints/_base.scss */
+/* line 828, ../scss/breakpoints/_base.scss */
 #home-hero-section h3 {
   line-height: 1.5em;
   margin-top: 0.5em;
   font-size: 1.35em;
   color: #fff;
 }
-/* line 794, ../scss/breakpoints/_base.scss */
+/* line 834, ../scss/breakpoints/_base.scss */
 #home-hero-section h1 {
   font-size: 2.25em;
   line-height: 1.1em;
   margin: 0.3em 0em;
 }
-/* line 799, ../scss/breakpoints/_base.scss */
+/* line 839, ../scss/breakpoints/_base.scss */
 #home-hero-section p {
   font-size: 1.3em;
   margin-bottom: 0.7em;
   color: #fff;
 }
 
-/* line 806, ../scss/breakpoints/_base.scss */
+/* line 846, ../scss/breakpoints/_base.scss */
 .hero-section-text {
   margin-bottom: 2em;
 }
 
-/* line 810, ../scss/breakpoints/_base.scss */
+/* line 850, ../scss/breakpoints/_base.scss */
 .home-hero-btn {
   margin: 0 auto;
   display: block;
@@ -2108,11 +2154,11 @@ Homepage styles
   font-size: 1.4em;
 }
 
-/* line 817, ../scss/breakpoints/_base.scss */
+/* line 857, ../scss/breakpoints/_base.scss */
 .bonus-line {
   position: relative;
 }
-/* line 819, ../scss/breakpoints/_base.scss */
+/* line 859, ../scss/breakpoints/_base.scss */
 .bonus-line:after {
   background-color: rgba(255, 255, 255, 0.7);
   content: "";
@@ -2121,7 +2167,7 @@ Homepage styles
   position: relative;
   vertical-align: middle;
 }
-/* line 827, ../scss/breakpoints/_base.scss */
+/* line 867, ../scss/breakpoints/_base.scss */
 .bonus-line:before {
   background-color: rgba(255, 255, 255, 0.7);
   content: "";
@@ -2131,18 +2177,37 @@ Homepage styles
   vertical-align: middle;
 }
 
-/* line 837, ../scss/breakpoints/_base.scss */
+/* line 877, ../scss/breakpoints/_base.scss */
+.homepage-contact-cta-content {
+  padding: 3.5em 0em;
+}
+/* line 879, ../scss/breakpoints/_base.scss */
+.homepage-contact-cta-content .btn-dark {
+  font-size: 1.2em;
+  padding: 0.6em 1.5em;
+  margin-top: 0.6em;
+}
+/* line 884, ../scss/breakpoints/_base.scss */
+.homepage-contact-cta-content a {
+  color: #fff;
+}
+/* line 886, ../scss/breakpoints/_base.scss */
+.homepage-contact-cta-content a:hover {
+  color: #fff;
+}
+
+/* line 892, ../scss/breakpoints/_base.scss */
 .about-section-homepage {
   background: #fff;
   padding: 4em 0;
 }
 
-/* line 842, ../scss/breakpoints/_base.scss */
+/* line 897, ../scss/breakpoints/_base.scss */
 .about-text-homepage {
   margin-bottom: 1em;
 }
 
-/* line 848, ../scss/breakpoints/_base.scss */
+/* line 903, ../scss/breakpoints/_base.scss */
 #services-header {
   background: url(../images/mountains-image.jpg) no-repeat;
   background-size: cover;
@@ -2150,71 +2215,71 @@ Homepage styles
   background-position-y: 55%;
 }
 
-/* line 854, ../scss/breakpoints/_base.scss */
+/* line 909, ../scss/breakpoints/_base.scss */
 .service-item {
   margin: 2em 0em;
   padding-bottom: 1.25em;
   border-bottom: 1px solid #dedede;
 }
-/* line 858, ../scss/breakpoints/_base.scss */
+/* line 913, ../scss/breakpoints/_base.scss */
 .service-item h4 {
   font-size: 1.35em;
 }
 
-/* line 863, ../scss/breakpoints/_base.scss */
+/* line 918, ../scss/breakpoints/_base.scss */
 .services-content {
   padding: 3em 0em;
 }
 
-/* line 867, ../scss/breakpoints/_base.scss */
+/* line 922, ../scss/breakpoints/_base.scss */
 .about-section {
-  background: #45b6bc;
+  background: #11BCC5;
   padding: 2em 0;
 }
 
-/* line 872, ../scss/breakpoints/_base.scss */
+/* line 927, ../scss/breakpoints/_base.scss */
 .about-photo {
   border: 5px solid #fff;
   display: none;
 }
 
-/* line 877, ../scss/breakpoints/_base.scss */
+/* line 932, ../scss/breakpoints/_base.scss */
 .bio-text {
   padding: 5em 0em;
 }
 
-/* line 881, ../scss/breakpoints/_base.scss */
+/* line 936, ../scss/breakpoints/_base.scss */
 .bio-list {
   margin-top: 1.5em;
 }
 
-/* line 885, ../scss/breakpoints/_base.scss */
+/* line 940, ../scss/breakpoints/_base.scss */
 ul.bio-list {
   list-style-type: circle;
 }
 
-/* line 890, ../scss/breakpoints/_base.scss */
+/* line 945, ../scss/breakpoints/_base.scss */
 .contact-section {
   padding: 2em 0;
 }
 
-/* line 894, ../scss/breakpoints/_base.scss */
+/* line 949, ../scss/breakpoints/_base.scss */
 #contact-section-content {
   padding: 4em 0;
 }
 
-/* line 898, ../scss/breakpoints/_base.scss */
+/* line 953, ../scss/breakpoints/_base.scss */
 .icon-section {
   margin-bottom: 1.5em;
-  color: #2e5987;
+  color: #11559E;
 }
-/* line 901, ../scss/breakpoints/_base.scss */
+/* line 956, ../scss/breakpoints/_base.scss */
 .icon-section .contact-item {
   display: block;
   float: left;
   margin: 1em 0em 0em 1em;
 }
-/* line 906, ../scss/breakpoints/_base.scss */
+/* line 961, ../scss/breakpoints/_base.scss */
 .icon-section .fa {
   font-size: 1.4em;
   display: block;
@@ -2222,30 +2287,30 @@ ul.bio-list {
   margin: 0.75em 0em 0em 1em;
 }
 
-/* line 914, ../scss/breakpoints/_base.scss */
+/* line 969, ../scss/breakpoints/_base.scss */
 #contact-info {
   margin-top: 1em;
 }
 
-/* line 918, ../scss/breakpoints/_base.scss */
+/* line 973, ../scss/breakpoints/_base.scss */
 .contact-header {
-  background: #45b6bc;
+  background: #11BCC5;
   padding: 2em 0;
 }
 
-/* line 923, ../scss/breakpoints/_base.scss */
+/* line 978, ../scss/breakpoints/_base.scss */
 .contact-item {
   margin-bottom: 1.25em;
   display: block;
 }
-/* line 926, ../scss/breakpoints/_base.scss */
+/* line 981, ../scss/breakpoints/_base.scss */
 .contact-item h3 {
   margin-top: 0.55em;
 }
 
-/* line 931, ../scss/breakpoints/_base.scss */
+/* line 986, ../scss/breakpoints/_base.scss */
 .contact-circle {
-  background: #2e5987;
+  background: #11559E;
   height: 2.5em;
   width: 2.5em;
   border-radius: 2em;
@@ -2253,13 +2318,13 @@ ul.bio-list {
   float: left;
   margin-right: 0.5em;
 }
-/* line 939, ../scss/breakpoints/_base.scss */
+/* line 994, ../scss/breakpoints/_base.scss */
 .contact-circle .fa {
   font-size: 1.3em;
   padding: 0.5em;
 }
 
-/* line 945, ../scss/breakpoints/_base.scss */
+/* line 1000, ../scss/breakpoints/_base.scss */
 .contact-listing {
   display: block;
   float: left;
@@ -2418,7 +2483,7 @@ you can add resource intensive styles.
     font-size: 2.7em;
     line-height: 1.333em;
     font-family: "Roboto Slab", "Georgia", Cambria, Times New Roman, Times, serif;
-    color: #2e5987;
+    color: #11559E;
   }
 
   /*********************
@@ -2461,9 +2526,9 @@ you can add resource intensive styles.
   }
   /* line 82, ../scss/breakpoints/_768up.scss */
   .nav li a:hover, .nav li a:focus {
-    color: #45b6bc;
+    color: #11BCC5;
     background: none;
-    border-bottom: 3px solid #45b6bc;
+    border-bottom: 3px solid #11BCC5;
   }
   /* line 95, ../scss/breakpoints/_768up.scss */
   .nav li ul.sub-menu,

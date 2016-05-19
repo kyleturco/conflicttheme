@@ -747,6 +747,10 @@ CUSTOM STYLES
   padding-left: 0px;
 }
 
+.teal-section {
+  background: $teal;
+}
+
 // buttons //
 .btn-primary {
   background-color: $teal;
@@ -771,10 +775,46 @@ CUSTOM STYLES
 
 a.btn-primary {
   color: $white;
+  text-decoration: none;
   &:hover {
+    color: $white;
+    text-decoration: none;
+  }
+}
+
+.btn-dark {
+  background-color: $dark-blue;
+  text-align: center;
+  font-size: 1em;
+  padding: 0.6em 1em;
+  font-family: $header;
+  border: none;
+  border-radius: 0px;
+  color: $white;
+  a {
+    color: $white;
+    &:hover {
+      text-decoration: none;
+      color: $white;
+    }
+  }
+  &:hover {
+    background-color: darken($dark-blue, 10%);
+    text-decoration: none;
+    border: none;
     color: $white;
   }
 }
+
+a.btn-dark {
+  color: $white;
+  text-decoration: none;
+  &:hover {
+    color: $white;
+    text-decoration: none;
+  }
+}
+
 
 /**************
 Homepage styles
@@ -831,6 +871,21 @@ Homepage styles
     height: 1px;
     position: relative;
     vertical-align: middle;
+  }
+}
+
+.homepage-contact-cta-content {
+  padding: 3.5em 0em;
+  .btn-dark {
+    font-size: 1.2em;
+    padding: 0.6em 1.5em;
+    margin-top: 0.6em;
+  }
+  a {
+    color: $white;
+    &:hover {
+      color: $white;
+    }
   }
 }
 

@@ -239,7 +239,7 @@ h1, .h1 {
   font-size: 2.7em;
   line-height: 1.333em;
   font-family: "Roboto Slab", "Georgia", Cambria, Times New Roman, Times, serif;
-  color: #2e5987;
+  color: #11559E;
 }
 
 /*********************
@@ -282,9 +282,9 @@ NAVIGATION STYLES
 }
 /* line 82, ../scss/breakpoints/_768up.scss */
 .nav li a:hover, .nav li a:focus {
-  color: #45b6bc;
+  color: #11BCC5;
   background: none;
-  border-bottom: 3px solid #45b6bc;
+  border-bottom: 3px solid #11BCC5;
 }
 /* line 95, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu,

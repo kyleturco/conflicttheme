@@ -39,6 +39,18 @@ Template Name: Home Page
       </div>
     </div>
   </div>
-  <div class="clearfix"></div>
+  <div class="homepage-contact-cta teal-section">
+    <div class="container">
+      <div class="homepage-contact-cta-content clearfix">
+        <div class="col-md-9">
+          <h2 class="text-white">Want to learn more? Contact Kim!</h2>
+        </div>
+        <div class="col-md-3">
+          <a href="<?php echo home_url(); ?>/contact"><div class="btn btn-dark">Say Hello</div></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
 <?php get_footer(); ?>
