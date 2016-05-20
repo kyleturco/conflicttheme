@@ -293,6 +293,18 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
+
+.footer-left {
+	display: block;
+	float: left;
+	padding-top: 11px;
+}
+
+.footer-right {
+	display: block;
+	float: right;
+}
+
 .footer-links {
 	ul {
 		li {

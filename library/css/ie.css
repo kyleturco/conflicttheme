@@ -382,7 +382,20 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 298, ../scss/breakpoints/_768up.scss */
+/* line 297, ../scss/breakpoints/_768up.scss */
+.footer-left {
+  display: block;
+  float: left;
+  padding-top: 11px;
+}
+
+/* line 303, ../scss/breakpoints/_768up.scss */
+.footer-right {
+  display: block;
+  float: right;
+}
+
+/* line 310, ../scss/breakpoints/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.
@@ -395,22 +408,22 @@ mobile. Make sure to double check these!
 /*********************
 CUSTOM STYLES
 *********************/
-/* line 316, ../scss/breakpoints/_768up.scss */
+/* line 328, ../scss/breakpoints/_768up.scss */
 .about-photo {
   display: block;
 }
 
-/* line 320, ../scss/breakpoints/_768up.scss */
+/* line 332, ../scss/breakpoints/_768up.scss */
 .service-item {
   width: 65%;
 }
 
-/* line 324, ../scss/breakpoints/_768up.scss */
+/* line 336, ../scss/breakpoints/_768up.scss */
 #services-header {
   padding: 3.5em 0 5em;
 }
 
-/* line 328, ../scss/breakpoints/_768up.scss */
+/* line 340, ../scss/breakpoints/_768up.scss */
 .hero-description {
   width: 50%;
   margin: 0 auto;
