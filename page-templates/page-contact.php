@@ -27,7 +27,7 @@ Template Name: Conctact Page
         </div>
       </div>
       <div class="form-container col-md-7 no-left-pad">
-        <?php echo do_shortcode( '[contact-form-7 id="22" title="Contact"]' ); ?>
+        <?php echo do_shortcode( '[contact-form-7 id="19" title="Contact"]' ); ?>
       </div>
       <div class="clearfix"></div>
     </div>
